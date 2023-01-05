@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .keyboard .panel {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px 10px 0 0;
+    background: #000;
+}
+
+main .keyboard .keys {
+    display: flex;
+    position: relative;
+}
+
+main .keyboard .keys .key {
+    width: 50px;
+    height: 200px;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+}
+
+main .keyboard .keys .key:last-child {
+    border-right: 3px solid #000;
+}
+
+main .keyboard .keys .key:hover {
+    background: #CCC;
+}
+
+main .keyboard .keys .black-keys {
+    display: flex;
+    position: absolute;
+    left: 37px;
+}
+
+main .keyboard .keys .black-key {
+    background: #000;
+    width: 30px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+main .keyboard .keys .black-key:hover {
+    background: #444;
+    border: #444;
+}
+
+footer {
+    height: 10vh;
+}
+
+.hide {
+    visibility: hidden;
+}
