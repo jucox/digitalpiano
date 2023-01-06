@@ -1,4 +1,4 @@
-# Digital Piano
+# Digital Piano 🎹
 
 Digital piano developed with HTML, CSS and JavaScript.
 
